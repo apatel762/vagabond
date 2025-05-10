@@ -2,7 +2,13 @@
 
 An idea for an infinite game to pass the time with.
 
-## Architecture tests
+Links
+
+- https://tschuehly.gitbook.io/server-side-spring-htmx-workshop/lab-1-server-side-rendering-with-spring-boot-and-jte
+
+## TODO
+
+### Architecture tests
 
 something like
 
@@ -50,7 +56,7 @@ public class ArchitectureTests {
 }
 ```
 
-## Zipkin auto
+### Zipkin auto
 
 ```xml
 
@@ -78,7 +84,7 @@ public class ArchitectureTests {
 </dependencies>
 ```
 
-## Jib (build containers)
+### Jib (build containers)
 
 Property:
 
