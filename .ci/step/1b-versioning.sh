@@ -57,7 +57,11 @@ elif [ "${CURRENT_GIT_BRANCH}" = "main" ] || [ "${CURRENT_GIT_BRANCH}" = "master
             fi
         else
             echo "\_[patch]"
-            increment_type="patch"
+            if [ -z "$increment_type" ]; then
+                # only consider this a patch version if we haven't already set it
+                # to something else
+                increment_type="patch"
+            fi
         fi
     done < "${COMMITS_FILE}"
 
