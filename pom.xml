@@ -25,7 +25,7 @@
     <jacoco-maven-plugin.version>0.8.13</jacoco-maven-plugin.version>
     <flatten-maven-plugin.version>1.7.0</flatten-maven-plugin.version>
     <archunit.version>1.4.0</archunit.version>
-    <jte.version>3.2.0</jte.version>
+    <jte.version>3.2.1</jte.version>
     <!-- Minimum line coverage percentage for unit tests -->
     <jacoco-maven-plugin.minimum-coverage>0.90</jacoco-maven-plugin.minimum-coverage>
   </properties>
